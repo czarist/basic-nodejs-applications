@@ -8,5 +8,9 @@ module.exports = function () {
         connection.query('select * from noticias where id_noticia = 2', callback)
     }
 
+    this.salvarNoticia = function (noticia, connection, callback) {
+
+    }
+
     return this;
 } 
